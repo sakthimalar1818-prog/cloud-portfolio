@@ -1,11 +1,233 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Cloud Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Malaravan | Cloud Computing Portfolio</title>
+
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+header {
+  padding: 80px 0 50px;
+  text-align: center;
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+}
+
+header h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+header h1 span {
+  color: #38bdf8;
+}
+
+header p {
+  font-size: 18px;
+  color: #cbd5e1;
+}
+
+.badge {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 16px;
+  border: 1px solid #38bdf8;
+  border-radius: 20px;
+  color: #38bdf8;
+}
+
+section {
+  padding: 55px 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #38bdf8;
+}
+
+.about {
+  text-align: center;
+  max-width: 750px;
+  margin: auto;
+  color: #cbd5e1;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 18px;
+}
+
+.skill {
+  background: #1e293b;
+  padding: 25px;
+  text-align: center;
+  border-radius: 12px;
+  border: 1px solid #334155;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.project {
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #334155;
+}
+
+.project h3 {
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+.project p {
+  color: #cbd5e1;
+}
+
+.contact {
+  text-align: center;
+  background: #020617;
+}
+
+.contact a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 22px;
+  background: #38bdf8;
+  color: #020617;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background: #020617;
+  color: #94a3b8;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 32px;
+  }
+
+  header {
+    padding: 60px 0 40px;
+  }
+}
+</style>
 </head>
+
 <body>
-  <h1>My Cloud Computing Portfolio</h1>
-  <p>Deployed using Google Cloud Shell.</p>
-  <p>Cloud Deployment • Linux • Python • Google Cloud</p>
+
+<header>
+  <div class="container">
+    <h1>Hi, I'm <span>Malaravan</span></h1>
+    <p>Cloud Computing Enthusiast | Linux | Python | Google Cloud</p>
+    <div class="badge">☁️ Cloud Portfolio</div>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <h2>About Me</h2>
+    <p class="about">
+      I am building my skills in cloud computing, Linux, Python and
+      Google Cloud. This portfolio showcases my learning journey,
+      cloud projects and technical skills.
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Skills</h2>
+
+    <div class="skills">
+      <div class="skill">☁️ Google Cloud</div>
+      <div class="skill">🐧 Linux</div>
+      <div class="skill">🐍 Python</div>
+      <div class="skill">💻 Git & GitHub</div>
+      <div class="skill">🌐 HTML & CSS</div>
+      <div class="skill">🚀 Cloud Deployment</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Projects</h2>
+
+    <div class="projects">
+
+      <div class="project">
+        <h3>Cloud Portfolio</h3>
+        <p>
+          A personal portfolio website created using HTML and deployed
+          through GitHub Pages.
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>Google Cloud Shell</h3>
+        <p>
+          Used Google Cloud Shell to work with Linux commands,
+          Python and cloud development tools.
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>Linux & Python Practice</h3>
+        <p>
+          Practicing Linux terminal commands and Python programming
+          as part of my cloud computing journey.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="contact">
+  <div class="container">
+    <h2>Contact</h2>
+    <p>Interested in connecting with me?</p>
+
+    <a href="mailto:sakthimalar1818@gmail.com">
+      Contact Me
+    </a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Malaravan • Cloud Computing Portfolio
+</footer>
+
 </body>
 </html>
